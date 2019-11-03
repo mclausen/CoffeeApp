@@ -60,14 +60,22 @@ struct DrinkDetail: View {
 }
 
 struct OrderButton : View {
+    
+    @State var showingAlert = false
+    
     var body: some View {
-        Button(action: {}){
-            Text("Order now")
+        Button(action: {
+            self.showingAlert.toggle()
+        }){
+            Text("Order now!")
         }.frame(width: 200, height: 50)
             .background(Color.blue)
             .foregroundColor(.white)
             .font(.headline)
         .cornerRadius(10)
+            .alert(isPresented: $showingAlert) {
+                Alert(title: Text("Important message"), message: Text("Wear sunscreen"), dismissButton: .default(Text("Got it!")))
+            }
     }
 }
 

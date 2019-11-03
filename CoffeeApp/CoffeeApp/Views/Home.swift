@@ -24,8 +24,9 @@ struct HomeView: View {
                     .frame(height: 320)
                     .padding(.top)
                     .padding(.bottom)
-            }.navigationBarTitle(
-                Text("Coffee Library"))
+            }
+            .navigationBarTitle(Text("Coffee Library"))
+            .buttonStyle(PlainButtonStyle())
         }
     }
 }
