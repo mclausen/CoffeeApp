@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B722336F236EE6D70028F5E1 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722336E236EE6D70028F5E1 /* DrinkRow.swift */; };
+		B7223371236EF2CA0028F5E1 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7223370236EF2CA0028F5E1 /* DrinkDetail.swift */; };
 		B726080F236ED8AC009002FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B726080E236ED8AC009002FA /* AppDelegate.swift */; };
 		B7260811236ED8AC009002FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260810236ED8AC009002FA /* SceneDelegate.swift */; };
-		B7260813236ED8AC009002FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260812236ED8AC009002FA /* ContentView.swift */; };
+		B7260813236ED8AC009002FA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260812236ED8AC009002FA /* Home.swift */; };
 		B7260815236ED8AD009002FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7260814236ED8AD009002FA /* Assets.xcassets */; };
 		B7260818236ED8AD009002FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7260817236ED8AD009002FA /* Preview Assets.xcassets */; };
 		B726081B236ED8AD009002FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7260819236ED8AD009002FA /* LaunchScreen.storyboard */; };
 		B7260826236ED8AD009002FA /* CoffeeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260825236ED8AD009002FA /* CoffeeAppTests.swift */; };
 		B7260831236ED8AD009002FA /* CoffeeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260830236ED8AD009002FA /* CoffeeAppUITests.swift */; };
+		B726083F236ED8FE009002FA /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = B726083E236ED8FE009002FA /* drinks.json */; };
+		B7260841236EDDF2009002FA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260840236EDDF2009002FA /* Data.swift */; };
+		B7260843236EDFF9009002FA /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260842236EDFF9009002FA /* Drink.swift */; };
+		B7260845236EE147009002FA /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7260844236EE147009002FA /* DrinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B722336E236EE6D70028F5E1 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		B7223370236EF2CA0028F5E1 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		B726080B236ED8AC009002FA /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B726080E236ED8AC009002FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7260810236ED8AC009002FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7260812236ED8AC009002FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7260812236ED8AC009002FA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B7260814236ED8AD009002FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7260817236ED8AD009002FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B726081A236ED8AD009002FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		B726082C236ED8AD009002FA /* CoffeeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7260830236ED8AD009002FA /* CoffeeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppUITests.swift; sourceTree = "<group>"; };
 		B7260832236ED8AD009002FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B726083E236ED8FE009002FA /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		B7260840236EDDF2009002FA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B7260842236EDFF9009002FA /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		B7260844236EE147009002FA /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7223372236EF8980028F5E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7260812236ED8AC009002FA /* Home.swift */,
+				B7260844236EE147009002FA /* DrinkItem.swift */,
+				B722336E236EE6D70028F5E1 /* DrinkRow.swift */,
+				B7223370236EF2CA0028F5E1 /* DrinkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7223373236EF8AC0028F5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7260840236EDDF2009002FA /* Data.swift */,
+				B7260842236EDFF9009002FA /* Drink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B7260802236ED8AC009002FA = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +133,13 @@
 			children = (
 				B726080E236ED8AC009002FA /* AppDelegate.swift */,
 				B7260810236ED8AC009002FA /* SceneDelegate.swift */,
-				B7260812236ED8AC009002FA /* ContentView.swift */,
+				B7223372236EF8980028F5E1 /* Views */,
 				B7260814236ED8AD009002FA /* Assets.xcassets */,
 				B7260819236ED8AD009002FA /* LaunchScreen.storyboard */,
 				B726081C236ED8AD009002FA /* Info.plist */,
 				B7260816236ED8AD009002FA /* Preview Content */,
+				B726083E236ED8FE009002FA /* drinks.json */,
+				B7223373236EF8AC0028F5E1 /* Model */,
 			);
 			path = CoffeeApp;
 			sourceTree = "<group>";
@@ -242,6 +276,7 @@
 			files = (
 				B726081B236ED8AD009002FA /* LaunchScreen.storyboard in Resources */,
 				B7260818236ED8AD009002FA /* Preview Assets.xcassets in Resources */,
+				B726083F236ED8FE009002FA /* drinks.json in Resources */,
 				B7260815236ED8AD009002FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +304,12 @@
 			files = (
 				B726080F236ED8AC009002FA /* AppDelegate.swift in Sources */,
 				B7260811236ED8AC009002FA /* SceneDelegate.swift in Sources */,
-				B7260813236ED8AC009002FA /* ContentView.swift in Sources */,
+				B722336F236EE6D70028F5E1 /* DrinkRow.swift in Sources */,
+				B7260813236ED8AC009002FA /* Home.swift in Sources */,
+				B7260843236EDFF9009002FA /* Drink.swift in Sources */,
+				B7260841236EDDF2009002FA /* Data.swift in Sources */,
+				B7260845236EE147009002FA /* DrinkItem.swift in Sources */,
+				B7223371236EF2CA0028F5E1 /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
